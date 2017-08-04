@@ -3,11 +3,15 @@
 import React from 'react';
 import {
 	AppRegistry,
-	Text
+	View
 } from 'react-native';
+import Header from './src/components/header';
 
 const App = () => (
-	<Text>Some Text</Text>
+	<View>
+		<Header />
+	</View>
 );
+
 
 AppRegistry.registerComponent('albums', () => App);
